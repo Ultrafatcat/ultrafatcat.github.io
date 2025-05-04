@@ -1,0 +1,3 @@
+I completed the Contact Me page on my website. My two additional elements were
+AwesomeFont icons (in Contact Me page) and a hover over animation effect on my
+nav bar.
