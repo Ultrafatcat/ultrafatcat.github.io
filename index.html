@@ -1,89 +1,100 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<meta name='viewport' content='width=device-width, initial-scale=1' />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
-		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
-		<link rel="stylesheet" href="style.css">
-	</head>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body>
-		<nav>
-			<div class="navbar fixed-navbar">
-				<span class="nav-brand">Aila Batista</span>
-				<div class="nav-links">
-					<a class="nav-link" href="index.html">Home</a>
-					<a class="nav-link" href="aboutme.html">About Me</a>
-					<a class="nav-link" href="portfolio.html">Portfolio</a>
-					<a class="nav-link" href="contact.html">Contact Me</a>
-				</div>
-			</div>
-		</nav>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-
-					<!-- Tab radio inputs (hidden) -->
-					<input type="radio" name="portfolio-tab" id="tab-games" class="tab-input" checked>
-					<input type="radio" name="portfolio-tab" id="tab-art" class="tab-input">
-					<input type="radio" name="portfolio-tab" id="tab-models" class="tab-input">
-					<input type="radio" name="portfolio-tab" id="tab-web" class="tab-input">
-
-					<!-- Tab labels -->
-					<div class="tab-bar">
-						<label for="tab-games">Games</label>
-						<label for="tab-art">Art</label>
-						<label for="tab-models">3D Models</label>
-						<label for="tab-web">Web</label>
-					</div>
-
-					<!-- Games tab content -->
-					<div class="tab-pane" id="pane-games">
-						<h2>Individual Game Project</h2>
-						<h4>2023</h4>
-						<p>A 2D platformer focused on creating unique physics changes. I learned a lot about different game physics that goes into making a functional platformer, jumping, shooting, dashing, etc. My favorite part of building this project was learning how to put all the assets and animations together in Unity.</p>
-						<a href="Rhetorical Analysis.pdf">Read my Rhetorical Analysis here</a>
-						<video controls>
-							<source src="GameTrailer.mp4" type="video/mp4">
-						</video>
-						<hr>
-
-						<h2>AR Game Project</h2>
-						<h4>2023</h4>
-						<p>An AR game project that features a match 3 game and 2D platformer. I had a lot of fun designing art for the game which was my role. I ended up learning a lot about design (mostly what doesn't work).</p>
-						<a href="Rhetorical Analysis #2.pdf">Read my Rhetorical Analysis here</a>
-						<img src="Match 3 Block Designs 1.png" alt="AR Game Design" class="img-fluid">
-						<hr>
-
-						<h2>Interactive Comic</h2>
-						<h4>2024</h4>
-						<p>A game project that features an interactive comic story element. I had a lot of fun building a story and overall design for the game. I learned a lot about workflow and scoping.</p>
-						<a href="Interactive Comic Rhetorical Analysis.pdf">Read my Rhetorical Analysis here</a>
-						<div>
-							<video controls>
-								<source src="Group Portfolio.mp4" type="video/mp4">
-							</video>
-						</div>
-					</div>
-
-					<!-- Art tab content -->
-					<div class="tab-pane" id="pane-art">
-						<p>Coming soon.</p>
-					</div>
-
-					<!-- 3D Models tab content -->
-					<div class="tab-pane" id="pane-models">
-						<p>Coming soon.</p>
-					</div>
-
-					<!-- Web tab content -->
-					<div class="tab-pane" id="pane-web">
-						<p>Coming soon.</p>
-					</div>
-
+        <nav>
+            <div class="navbar fixed-navbar">
+                <span class="nav-brand">Aila Batista</span>
+                <div class="nav-links">
+                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link" href="aboutme.html">About Me</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    <a class="nav-link" href="contact.html">Contact Me</a>
                 </div>
             </div>
+        </nav>
+
+        <div class="container">
+
+            <!-- Hero -->
+            <div class="row">
+                <div class="col-12 hero-section">
+                    <p class="hero-tag">Game Developer &amp; Web Developer</p>
+                    <h1>Hi, I'm Aila Batista.</h1>
+                    <p class="hero-sub">Creative and determined developer who loves digging into a problem until it's fully understood, whether that's a game mechanic, a web interface, or something I've never built before.</p>
+                    <div class="hero-btn-row">
+                        <a href="portfolio.html" class="btn btn-purple">View my portfolio</a>
+                        <a href="aboutme.html" class="btn btn-outline-hero">About me</a>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- What I do -->
+            <div class="row">
+                <div class="col-12">
+                    <p class="home-section-label">What I do</p>
+                    <div class="discipline-grid">
+                        <div class="discipline-card">
+                            <div class="discipline-icon"><i class="fa-solid fa-gamepad" aria-hidden="true"></i></div>
+                            <p class="discipline-name">Games</p>
+                            <p class="discipline-sub">Unity, C#</p>
+                        </div>
+                        <div class="discipline-card">
+                            <div class="discipline-icon"><i class="fa-solid fa-code" aria-hidden="true"></i></div>
+                            <p class="discipline-name">Web</p>
+                            <p class="discipline-sub">HTML, CSS, JS</p>
+                        </div>
+                        <div class="discipline-card">
+                            <div class="discipline-icon"><i class="fa-solid fa-paintbrush" aria-hidden="true"></i></div>
+                            <p class="discipline-name">Art</p>
+                            <p class="discipline-sub">Pixel art, design</p>
+                        </div>
+                        <div class="discipline-card">
+                            <div class="discipline-icon"><i class="fa-solid fa-cube" aria-hidden="true"></i></div>
+                            <p class="discipline-name">3D Models</p>
+                            <p class="discipline-sub">Modeling, assets</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Featured projects -->
+            <div class="row">
+                <div class="col-12">
+                    <p class="home-section-label">Featured projects</p>
+                    <div class="project-grid">
+                        <div class="project-card">
+                            <p class="project-year">2023</p>
+                            <h4 class="project-title">2D Platformer</h4>
+                            <p class="project-desc">Physics-based platformer with double jump, dash, and projectile mechanics built in Unity.</p>
+                            <span class="project-tag">Games</span>
+                        </div>
+                        <div class="project-card">
+                            <p class="project-year">2023</p>
+                            <h4 class="project-title">AR Match 3</h4>
+                            <p class="project-desc">Augmented reality game with original paleontology-themed block art and a built-in platformer mini-game.</p>
+                            <span class="project-tag">Games</span>
+                        </div>
+                        <div class="project-card">
+                            <p class="project-year">2024</p>
+                            <h4 class="project-title">Interactive Comic</h4>
+                            <p class="project-desc">Story-driven comic with animated panels, player-choice branching, and integrated mini-games.</p>
+                            <span class="project-tag">Games</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
- 
     </body>
 </html>
