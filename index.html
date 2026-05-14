@@ -8,30 +8,79 @@
 	</head>
     <body>
 		<nav>
-			
-				<div class="navbar fixed-navbar">
-					
+			<div class="navbar fixed-navbar">
+				<span class="nav-brand">Aila Batista</span>
+				<div class="nav-links">
 					<a class="nav-link" href="index.html">Home</a>
-
 					<a class="nav-link" href="aboutme.html">About Me</a>
-
 					<a class="nav-link" href="portfolio.html">Portfolio</a>
-		
 					<a class="nav-link" href="contact.html">Contact Me</a>
 				</div>
-		
+			</div>
 		</nav>
 
         <div class="container">
             <div class="row">
                 <div class="col-12">
-					<center>
-					<h1>Welcome</h1>
-					
-					<h4>Check out my other pages to learn more about me!</h4>
-					</center>
-				</div>
-            </div>
+
+					<!-- Tab radio inputs (hidden) -->
+					<input type="radio" name="portfolio-tab" id="tab-games" class="tab-input" checked>
+					<input type="radio" name="portfolio-tab" id="tab-art" class="tab-input">
+					<input type="radio" name="portfolio-tab" id="tab-models" class="tab-input">
+					<input type="radio" name="portfolio-tab" id="tab-web" class="tab-input">
+
+					<!-- Tab labels -->
+					<div class="tab-bar">
+						<label for="tab-games">Games</label>
+						<label for="tab-art">Art</label>
+						<label for="tab-models">3D Models</label>
+						<label for="tab-web">Web</label>
+					</div>
+
+					<!-- Games tab content -->
+					<div class="tab-pane" id="pane-games">
+						<h2>Individual Game Project</h2>
+						<h4>2023</h4>
+						<p>A 2D platformer focused on creating unique physics changes. I learned a lot about different game physics that goes into making a functional platformer, jumping, shooting, dashing, etc. My favorite part of building this project was learning how to put all the assets and animations together in Unity.</p>
+						<a href="Rhetorical Analysis.pdf">Read my Rhetorical Analysis here</a>
+						<video controls>
+							<source src="GameTrailer.mp4" type="video/mp4">
+						</video>
+						<hr>
+
+						<h2>AR Game Project</h2>
+						<h4>2023</h4>
+						<p>An AR game project that features a match 3 game and 2D platformer. I had a lot of fun designing art for the game which was my role. I ended up learning a lot about design (mostly what doesn't work).</p>
+						<a href="Rhetorical Analysis #2.pdf">Read my Rhetorical Analysis here</a>
+						<img src="Match 3 Block Designs 1.png" alt="AR Game Design" class="img-fluid">
+						<hr>
+
+						<h2>Interactive Comic</h2>
+						<h4>2024</h4>
+						<p>A game project that features an interactive comic story element. I had a lot of fun building a story and overall design for the game. I learned a lot about workflow and scoping.</p>
+						<a href="Interactive Comic Rhetorical Analysis.pdf">Read my Rhetorical Analysis here</a>
+						<div>
+							<video controls>
+								<source src="Group Portfolio.mp4" type="video/mp4">
+							</video>
+						</div>
+					</div>
+
+					<!-- Art tab content -->
+					<div class="tab-pane" id="pane-art">
+						<p>Coming soon.</p>
+					</div>
+
+					<!-- 3D Models tab content -->
+					<div class="tab-pane" id="pane-models">
+						<p>Coming soon.</p>
+					</div>
+
+					<!-- Web tab content -->
+					<div class="tab-pane" id="pane-web">
+						<p>Coming soon.</p>
+					</div>
+
                 </div>
             </div>
         </div>
