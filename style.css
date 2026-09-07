@@ -278,3 +278,32 @@ video {
 #tab-web:checked ~ #pane-web {
 	display: block;
 }
+
+/* ── Art Gallery ── */
+img.art-gallery {
+	width: 100%;
+	padding: 8px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.column {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	min-width: 0px;
+	padding: 4px;
+}
+
+@media only screen and (max-width: 770px) {
+	.container {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+	}
+}
