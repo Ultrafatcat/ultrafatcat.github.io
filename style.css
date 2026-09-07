@@ -285,7 +285,7 @@ img.art-gallery {
 	padding: 8px;
 }
 
-.container {
+.container-gallery {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
