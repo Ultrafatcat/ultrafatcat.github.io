@@ -5,40 +5,58 @@ body {
 	color: #f0eaf8;
 	padding: 80px 20px 50px;
 }
+
 h1 {
 	color: #f0eaf8;
 	font-family: Ruda;
 	font-weight: 900;
 }
+
 h2, h4 {
 	color: #f0eaf8;
 	font-family: Nobile;
 }
+
 p {
 	color: #f0eaf8;
 	font-family: Hind Madurai;
 }
+
 li {
 	color: #f0eaf8;
 	font-family: Hind Madurai;
 }
+
 hr {
 	border: 1px solid #2e1f4a;
 }
+
 #about-me {
 	background-color: #1a1225;
 	padding: 30px;
 	border-radius: 5px;
+	/* new */
+	display: flex;
+	align-items: flex-start;
+	gap: 20px;
 }
+
 #about-me img {
-	max-width: 40%;
+	/* max-width: 40%;
 	max-height: 40%;
 	float: left;
 	margin-right: 30px;
 	margin-bottom: 20px;
 	border: 2px solid #2e1f4a;
+	border-radius: 5px; */
+	width: 250px;
+	height: 250px;
+	object-fit: cover;
+	border: 2px solid #2e1f4a;
 	border-radius: 5px;
+	flex-shrink: 0;
 }
+
 .navbar {
 	display: flex;
 	justify-content: space-between;
